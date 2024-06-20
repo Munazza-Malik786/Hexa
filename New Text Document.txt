@@ -1,0 +1,26 @@
+id="scrollElement"   
+
+
+ <script>
+        const element = document.getElementById('scrollElement');
+
+        function addClassOnScroll() {
+            element.classList.add('bg-dark');
+        }
+
+
+        function removeClassOnScroll() {
+            element.classList.remove('bg-dark');
+        }
+
+
+        function handleScroll() {
+            if (window.scrollY > 100) {
+                addClassOnScroll();
+            } else {
+                removeClassOnScroll();
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+    </script>

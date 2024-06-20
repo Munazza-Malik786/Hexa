@@ -1,0 +1,137 @@
+@media screen and (max-width: 1200px) and (min-width: 998px) {
+  .card-3 {
+    padding: 18px 20px !important;
+  }
+  .links-heading h4 {
+    font-size: 15px;
+  }
+  .hero-button a{
+       padding: 10px 30px;
+  }
+.h3{
+    display: inline-block;
+}
+  .respo {
+    padding-top: 15px !important;
+  }
+}
+@media screen and (max-width: 998px) and (min-width: 742px) {
+  .card-panel p{
+    top: 39px;
+    left: -54px;
+  }  
+  .hero-heading p {
+       display: inline;
+     padding-top: 10px;
+      }
+    .hero-heading h2 {
+        display: inline;
+        font-size: 52px;
+    }
+  .card-3 {
+    padding: 18px 12px !important;
+  }
+  .info-card h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 742px) and (min-width: 250px) {
+      .hero-heading h2 {
+        display: inline;
+    }
+  .info-heading h1 {
+    font-size: 36px !important;
+  }
+  .icons {
+    display: none !important;
+  }
+  .info-heading p {
+    font-size: 24px !important;
+  }
+  .info-card h2 {
+    font-size: 29px;
+  }
+  .courses-heading h1 {
+    font-size: 37px;
+  }
+  .courses-heading p {
+    font-size: 19px;
+    padding: 0px 2px;
+  }
+  .hero-heading p {
+    font-size: 19px;
+   
+        padding: 0 5px;
+ 
+  }
+  .main{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: nowrap;
+    padding: 4px;
+  }
+  .saif{
+    padding: 0;
+  }
+  .hero-heading h2 {
+    font-size: 35px;
+  }
+  .hero-buttons {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .rotate-2 {
+    transform: rotate(0deg);
+    margin-top: 1rem;
+  }
+  .rotate-1 {
+    transform: rotate(0deg);
+    margin-top: 1.7rem;
+  }
+  #hero {
+    height: 750px;
+  }
+  #info {
+    height: 800px;
+  }
+  #info::after {
+    height: 800px;
+  }
+  .links-heading{
+    padding-top: 30px !important;
+  }
+  .hexa-logo {
+    width: 46%;
+}
+.card-footer .row .col-6  {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.card-review .row .col-6{
+  display: flex;
+justify-content: center;
+align-items: center;
+
+} 
+.hero-buttons2{
+  display: none !important;
+}
+.links-heading{
+  width: 230px;
+}
+.hero-content .hero-button a {
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.card-panel p{
+  top: 39px;
+  left: -54px; 
+}
+.logo-footer img {
+  width: 116px;
+}
+}
